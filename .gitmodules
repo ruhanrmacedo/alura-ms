@@ -1,0 +1,15 @@
+[submodule "academico-php"]
+	path = academico-php
+	url = git@github.com:ruhanrmacedo/academico-php.git
+[submodule "academico-php-web"]
+	path = academico-php-web
+	url = git@github.com:ruhanrmacedo/academico-php-web.git
+[submodule "financeiro-php"]
+	path = financeiro-php
+	url = git@github.com:ruhanrmacedo/financeiro-php.git
+[submodule "front-end"]
+	path = front-end
+	url = git@github.com:ruhanrmacedo/front-end-alura-ms.git
+[submodule "mkt-node"]
+	path = mkt-node
+	url = git@github.com:ruhanrmacedo/mkt-node-alura-ms.git
