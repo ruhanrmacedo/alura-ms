@@ -37,7 +37,7 @@ services:
       - mongo-mkt
 
   mongo-mkt:
-    image: mongo
+    image: mongo:4.4.6
     environment:
       MONGO_INITDB_ROOT_USERNAME: mkt-usuario
       MONGO_INITDB_ROOT_PASSWORD: mkt-senha
@@ -94,8 +94,8 @@ services:
       RABBITMQ_PORT: 5672
       RABBITMQ_USERNAME: guest
       RABBITMQ_PASSWORD: guest
-      GMAIL_USER: 'seu-email@gmail.com'
-      GMAIL_PASSWORD: 'sua-senha'
+      GMAIL_USER: 'macedosteste01@gmail.com'
+      GMAIL_PASSWORD: 'lthubnoyqxkurgnc'
 
   postgre-academico:
     image: postgres
